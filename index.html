@@ -1,409 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desmond Lartey's Portfolio</title>
-    <!-- Link to Bootstrap CSS -->
+    <title>Desmond's Portfolio</title>
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        /* This is for the hero background image */
-        .hero-background {
-            background: url(https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/background.png) no-repeat center center;
-            background-size: cover;
-            color: #ffffff; /* Text color, you can adjust as needed */
-        }
-    </style>
-</head>)
-
+</head>
 <body>
-
-<!-- Navbar -->
+<!-- Navigation Bar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Desmond Lartey</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-        aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="#about">About Me</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" href="#projects">Projects</a>
             </li>
         </ul>
     </div>
 </nav>
 
-<!-- Hero Section with background image -->
-<section class="jumbotron text-center hero-background">
-    <h1 class="display-4">Hello, I'm Desmond Lartey!</h1>
-    <p class="lead">Landscape Planner | Researcher | GIS and Remote Sensing Enthusiast |Sense Making and Decision Making Specialist</p>
-</section>
-
 <!-- About Me Section -->
 <section id="about" class="py-5">
     <div class="container">
-        <h2>About Me</h2>
-        <p>🌱 I work on regional to global scale studies addressing environmental change and climate change using geospatial techniques.
-💼 I am a 5-star rated Researcher and critical thinker.
-💼 With over 5 years of experience in the geospatial domain, I have successfully completed several projects using quantitative, qualitative and geospatial tools.
-👯 I am open to collaboration opportunities related to geospatial research, environmental analysis and urban/rural planning.</p>
-        <a href="https://github.com/desmond-lartey" target="_blank" class="btn btn-primary">Read More about my works on github</a>
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/IMG_2000.jpg" class="img-fluid rounded-circle" alt="Desmond Lartey" width="250">
+            </div>
+            <div class="col-lg-6">
+                <h2>About Me</h2>
+                <p>I am a passionate spatial planner and GIS analyst with over 6 years of experience. My work focuses on land use planning, environmental management, and sustainable urban development. I have a strong background in geospatial technologies, data analysis, and project management. My goal is to leverage these skills to help cities and communities become more sustainable, resilient, and inclusive.</p>
+            </div>
+        </div>
     </div>
 </section>
 
-
-<!-- Portfolio Section -->
-<section id="portfolio" class="py-5 bg-light">
+<!-- Projects Section -->
+<section id="projects" class="py-5">
     <div class="container">
-        <h2 class="text-center">My Portfolio</h2>
-
-        <!-- Projects 1-3 -->
+        <h2 class="text-center">My Projects</h2>
         <div class="row">
-            <!-- Portfolio item 1 -->
+            <!-- Project 1 -->
             <div class="col-md-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Project%201.png" class="card-img-top" alt="Portfolio Item 1">
-                    <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Project%201a.png" class="card-img-top" alt="Portfolio Item 1a">
-                    <div class="card-body">
-                        <h5 class="card-title"> Project 1: Active Travel</h5>
-                        <p class="card-text">The promotion of sustainable transportation systems and improved public health outcomes depends on the development of active travel capacity. In this project, we dive more into what capacity building for active travel mean and how could these frameworks helps to address Africa's transport system. Part of this is also to explore the role of Participatory GIS in capacity for active travel. Read more about the project by clicking the link below.</p>
-                        <p><strong>Duration:</strong> [2022-2023]</p>
-                        <p><strong>Country:</strong> [Europe, Ethiopia, Kenya, Mozambique, Ghana, Nigeria]</p>
-                        <p><strong>Mentor/Referee:</strong> [ Dr. Meredith Glaser]</p>
-                        <a href="https://www.urbancyclinginstitute.org/projects/" target="_blank" class="btn btn-primary">Read More</a>
-                        <a href="https://docs.google.com/document/d/1f-fxlpiZgp0zyLuVsDe2BIWREeIvUV-R/edit#heading=h.gjdgxs" target="_blank" class="btn btn-primary">Read More</a>
-                        <a href="https://docs.google.com/document/d/1f-fxlpiZgp0zyLuVsDe2BIWREeIvUV-R/edit#heading=h.gjdgxs" class="btn btn-secondary" data-toggle="modal" data-target="#requestAccessModal">Download/Request Access</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Portfolio item 2 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Project%202.png" class="card-img-top" alt="Portfolio Item 2">
-                    <div class="card-body">
-                        <h5 class="card-title"> Project 2: Urban Green and Sustainability</h5>
-                        <p class="card-text">As cities experience rapid growth, the threat of environmental hazards looms large. Our project on Urban green and sustainability provides cities with tangible solutions that not only enhance the aesthetic appeal of urban areas but also contribute positively to the environment as well as mitigate climate change impact. Read more about the project here.</p>
-                        <p><strong>Duration:</strong> [2022- present]</p>
-                        <p><strong>Country:</strong> [Europe]</p>
-                        <p><strong>Mentor/Referee:</strong> [Alina Lomans]</p>
-                        <a href="https://github.com/desmond-lartey/PlantsApp" class="btn btn-primary">Read More</a>
-                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#requestAccessModal">Download/Request Access</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Portfolio item 3 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Project%203.png" class="card-img-top" alt="Portfolio Item 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Project 3: Quantitative Approach to Monitoring Land use change</h5>
-                        <p class="card-text">In the face of rapid environmental shifts and anthropogenic pressures, the effective monitoring and management of conservation areas have become paramount. Our Research focuses on National Reserves increasingly vulnerable to threats from urbanization and resource degradation. To address this, our research aimed to produce detailed land use/land cover (LULC) maps and incorporate a robust change detection mechanism tailored for West African conservation reserves. We leverage different Machine Learning Algorithms to create high-quality land use maps and detect changes. Read about the work by following the link bellow.</p>
-                        <p><strong>Duration:</strong> [2021]</p>
-                        <p><strong>Country:</strong> [West African Landscapes]</p>
-                        <p><strong>Mentor/Referee:</strong> [ Prof. Elmar Veenendaal, Michiel van Eupen]</p>
-                        <a href="https://ee-desmond.projects.earthengine.app/view/intensity-analysis" class="btn btn-primary">Read More</a>
-                        <a href="https://onedrive.live.com/edit.aspx?resid=3460E105B0B5A847!3875&cid=3460e105b0b5a847&authkey=!AJBc6fjlt8fP5a8&CT=1695808210549&OR=ItemsView" class="btn btn-primary">Read More</a>
-                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#requestAccessModal">Download/Request Access</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr>
-
-        <!-- Projects 4-6 -->
-        <div class="row">
-            <!-- Portfolio item 4 -->
-            <div class="col-md-4">
-                <div class="card">
+                <div class="card mb-4">
                     <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Project%204.png" class="card-img-top" alt="Portfolio Item 4">
                     <div class="card-body">
-                        <h5 class="card-title"> Project 4: Machine Learning for Land use classification</h5>
-                        <p class="card-text">In the face of rapid environmental shifts and anthropogenic pressures, the effective monitoring and management of conservation areas have become paramount. We need to protect these areas from rapid urbanization and resource degradation. To address this, our research aimed to produce detailed land use/land cover (LULC) maps and incorporate a robust change detection mechanism tailored for West African conservation reserves. Three machine learning algorithms – Random Forest, Support Vector Machine, and Minimum Distance (K-Nearest Neighbour) – were employed to classify multi-temporal satellite imagery. Subsequent change detection analyses were conducted using both Google Earth Engine and ArcGIS Pro to elucidate the patterns of transformations.</p>
-                        <p><strong>Duration:</strong> [2022]</p>
-                        <p><strong>Country:</strong> [West African Landscapes]</p>
-                        <p><strong>Mentor/Referee:</strong> [Prof. Elmar Veenendaal, Michiel van Eupen]</p>
+                        <h5 class="card-title">Project 4: Machine Learning for Land use classification</h5>
+                        <p class="card-text">In the face of rapid environmental shifts and anthropogenic pressures, the effective monitoring and management of conservation areas have become paramount...</p>
                         <a href="https://ee-desmond.projects.earthengine.app/view/mltry2" class="btn btn-primary">Read More</a>
-                        <a href="https://onedrive.live.com/edit.aspx?resid=3460E105B0B5A847!3874&cid=3460e105b0b5a847&authkey=!AJBc6fjlt8fP5a8&CT=1695932142074&OR=ItemsView" class="btn btn-primary">Read More</a>
-                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#requestAccessModal">Download/Request Access</a>
                     </div>
                 </div>
             </div>
-            <!-- Portfolio item 5 -->
+            <!-- Project 2 -->
             <div class="col-md-4">
-                <div class="card">
+                <div class="card mb-4">
                     <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Project%205.png" class="card-img-top" alt="Portfolio Item 5">
                     <div class="card-body">
-                        <h5 class="card-title"> Project 5: PhD collaboration: Modelling Conservation Biocontrol and Land use</h5>
-                        <p class="card-text">In Colombia, the Coffee Berry Borer (CBB) is a major problem. 
-                            This beetle reduces crop yield and quality by drilling the coffee berries and feeding on the beans 
-                            during the beetle’s immature stages. Coffee farmers have developed CBB control strategies such as the use 
-                            of chemical insecticides, the manual collection of infested berries, and the use of entomopathogenic fungi, 
-                            but despite these practices, CBB remains a major problem in coffee production. A promising yet understudied approach to 
-                            CBB control is conservation biological control (CBC). In this study, we model land uses in these coffee-grown areas and connect
-                           the regulation of pest populations by supporting populations of naturally occurring natural enemies.</p>
-                        <p><strong>Duration:</strong> [2022 - 2025]</p>
-                        <p><strong>Country:</strong> [Colombia]</p>
-                        <p><strong>Mentor/Referee:</strong> [Prof Dicke, Marcel (Promotor)Bianchi, Dr. Felix (Co-promotor)]</p>
+                        <h5 class="card-title">Project 5: PhD collaboration: Modelling Conservation Biocontrol and Land use</h5>
+                        <p class="card-text">In Colombia, the Coffee Berry Borer (CBB) is a major problem...</p>
                         <a href="https://research.wur.nl/en/projects/conservation-biocontrol-of-a-major-insect-pest-of-coffee-in-colom-2" class="btn btn-primary">Read More</a>
-                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#requestAccessModal">Download/Request Access</a>
                     </div>
                 </div>
             </div>
-            <!-- Portfolio item 6 -->
+            <!-- Project 3 -->
             <div class="col-md-4">
-                <div class="card">
+                <div class="card mb-4">
                     <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Project%206.png" class="card-img-top" alt="Portfolio Item 6">
                     <div class="card-body">
-                        <h5 class="card-title"> Project 6: Collaboration: Wildfire Assessment</h5>
-                        <p class="card-text">The International Programs Office of the United States Forest Service is embarking on an effort to assess the
-                            wildland fire situation across Africa. The assessments will be guided by the Integrated Fire Management
-                            (IFM) approach, which incorporates a holistic understanding of fire on the landscape and the many trade-offs of
-                            management actions. The assessments will inform the design and implementation of country-specific strategic
-                            programming by International Programs staff.</p>
-                        <p><strong>Duration:</strong> [2023 - present]</p>
-                        <p><strong>Country:</strong> [USA and All African countries]</p>
-                        <p><strong>Mentor/Referee:</strong> [Louis Fleming-
-                            Forest Service International Programs]</p>
+                        <h5 class="card-title">Project 6: Collaboration: Wildfire Assessment</h5>
+                        <p class="card-text">The International Programs Office of the United States Forest Service is embarking on an effort to assess the wildland fire situation across Africa...</p>
                         <a href="https://github.com/desmond-lartey/Wildfire-Assessment" class="btn btn-primary">Read More</a>
-                        <a href="https://www.fs.usda.gov/about-agency/international-programs/where-we-work" class="btn btn-primary">Read More</a>
-                        <a href="https://www.fs.usda.gov/about-agency/international-programs/where-we-work" class="btn btn-secondary" data-toggle="modal" data-target="#requestAccessModal">Download/Request Access</a>
-                    </div>
-                </div>
-            </div>
-        <!-- Projects 7-9 -->
-            <!-- Portfolio item 7 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Picture7a.png" class="card-img-top" alt="Portfolio Item 7">
-                    <div class="card-body">
-                        <h5 class="card-title"> Project 7: Geodatabase-Parking Management</h5>
-                        <p class="card-text">As urbanization continues to increase, managing parking behaviour in municipalities has become an important aspect of urban planning (Litman, 2017). With the rise in the number of vehicles on the roads, finding available parking spaces has become a significant challenge, causing congestion, pollution, and frustration for both drivers and pedestrians (Shoup, 2006). Therefore, understanding parking behaviour is a critical area of study for municipalities to manage and improve parking efficiency. In this project assignment, students are confronted with documenting a geodatabase schema, the processes and how this can be implemented to answer specific information requests for the Municipality of Alkmaar.</p>
-                        <p><strong>Duration:</strong> [2023]</p>
-                        <p><strong>Country:</strong> [Netherlands]</p>
-                        <p><strong>Mentor/Referee:</strong> [Dr. Maurice de kleijn]</p>
-                        <a href="https://docs.google.com/document/d/1ey1ZCo_69SQlAMDclRe5yi_ukQyVTJPs/edit?usp=sharing&ouid=100089096446664020253&rtpof=true&sd=true" class="btn btn-primary">Read More</a>
-                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#requestAccessModal">Download/Request Access</a>
-                    </div>
-                </div>
-            </div>              
-        <!-- Projects 7-9 -->
-            <!-- Portfolio item 7 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Project%207.png" class="card-img-top" alt="Portfolio Item 7">
-                    <div class="card-body">
-                        <h5 class="card-title"> Project 8: Modelling Biomass for Heat Production</h5>
-                        <p class="card-text">In this project, the challenge is to identify what the best location of biomass production is, the available biomass within a zone of 25km and the energy content within the zone of biomass plants for heat production. This assessment is based on range of factors such as weight of biomass that can be extracted, and available energy content per year per different land use categories..</p>
-                        <p><strong>Duration:</strong> [2022]</p>
-                        <p><strong>Country:</strong> [Netherlands]</p>
-                        <p><strong>Mentor/Referee:</strong> [ Prof. Ac. Jaar]</p>
-                        <a href="https://drive.google.com/file/d/1HeVMG3Fnfuuf--d3sVUK25VTGQqTaKtd/view?usp=sharing" class="btn btn-primary">Read More</a>
-                        <a href="https://docs.google.com/document/d/1alKLHRC_99KQwsd_UqhU3BOSupG78sQa/edit" class="btn btn-primary">Read More</a>
-                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#requestAccessModal">Download/Request Access</a>
-                    </div>
-                </div>
-            </div>           
-        <!-- Projects 7-9 -->
-            <!-- Portfolio item 7 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Project%207a.png" class="card-img-top" alt="Portfolio Item 7">
-                    <div class="card-body">
-                        <h5 class="card-title"> Project 9: Academische consultatie training</h5>
-                        <p class="card-text">•Toekomstig klimaatbestendig ontwerpen (Land van Maas en Waal in 100 jaar)
-                            • Stakeholder engagement and Process analysis
-                            • Gegevensverzameling en analyse
-                            • Designing climate implementation mechanisms
-                            • Schrijven van rapporten</p>
-                        <p><strong>Duration:</strong> [2020]</p>
-                        <p><strong>Country:</strong> [Netherlands]</p>
-                        <p><strong>Mentor/Referee:</strong> [ Dr. Barbara Tempels, dr.ir. M (Marlies) Brinkhuijsen ]</p>
-                        <a href="https://www.youtube.com/watch?v=BZMSFcrSbwU" class="btn btn-primary">Read More</a>
-                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#requestAccessModal">Download/Request Access</a>
-                    </div>
-                </div>
-            </div>            
-            <!-- Portfolio item 8 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Project%208.png" class="card-img-top" alt="Portfolio Item 8">
-                    <div class="card-body">
-                        <h5 class="card-title"> Project 10: Integrated Fire Management</h5>
-                        <p class="card-text">2018 and 2019 were only a glimpse of what to expect in the future: deadly mega-fires in Mediterranean regions, high fire activity in temperate and boreal areas outside typical fire seasons and regions, and politicized deforestation fires in the Amazon. 2019 ended with a fire crisis in Australia that has never been seen before. Striking amidst these fires making year-round headlines is the lack of attention for fires in developing countries.</p>
-                        <p><strong>Duration:</strong> [2022-2023]</p>
-                        <p><strong>Country:</strong> [Europe, Africa]</p>
-                        <p><strong>Mentor/Referee:</strong> [ Dr. Cathelijne Stoof]</p>
-                        <a href="https://pyrolife.lessonsonfire.eu/" class="btn btn-primary">Read More</a>
-                        <a href="https://fire-res.eu/about-fire-res/" class="btn btn-primary">Read More</a>
-                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#requestAccessModal">Download/Request Access</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Portfolio item 9 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Project%209.png" class="card-img-top" alt="Portfolio Item 9">
-                    <div class="card-body">
-                        <h5 class="card-title"> Project 11: Just City-Political Dilemas in Spatial Planning</h5>
-                        <p class="card-text">Poplar lake is an active and lively neighborhood. It is structured by three distinct landmarks, lake poplar, Sterflat reloaded and the community center and urban edges which mark the orders of the different districts and the lakeshore (Lynch, 1960).</p>
-                        <p><strong>Duration:</strong> [2020]</p>
-                        <p><strong>Country:</strong> [Netherlands]</p>
-                        <p><strong>Mentor/Referee:</strong> [ Prof. Thomas Hartmann]</p>
-                        <a href="https://drive.google.com/file/d/1QTXmt-8ziLCpwbjRwOOAl7Ty64u09-ms/view?usp=sharing" class="btn btn-primary">Read More</a>
-                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#requestAccessModal">Download/Request Access</a>
-                    </div>
-                </div>
-            </div>
-        <!-- Projects 10 -->
-            <!-- Portfolio item 4 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Project%2010.png" class="card-img-top" alt="Portfolio Item 10">
-                    <div class="card-body">
-                        <h5 class="card-title"> Project 12: Cleaner cities (DEALS)</h5>
-                        <p class="card-text">As part of the targeted objectives of the DEALS project, a pre-testing exercise of the data collection
-                            instrument was undertaken as a follow-up to an earlier held training workshop in confidence of
-                            training selected enumerators and supervisors on the goals and objectives of the project. In this
-                            regard, the pre-testing exercise was primarily done with a mission and view to identify the likely
-                            challenges enumerators and respondents (units of enquiry) may face during the main survey period,
-                            conflicting issues such as translation barriers and other worth-noting technical errors in the data
-                            collection instrument for the project.</p>
-                        <p><strong>Duration:</strong> [2019]</p>
-                        <p><strong>Country:</strong> [Ghana]</p>
-                        <p><strong>Mentor/Referee:</strong> [Dr. Prince Anokye]</p>
-                        <a href="http://kma.gov.gh/kma/?almere-and-vng-international-support-me-and-my-tree-project-by-kma&page=5521" class="btn btn-primary">Read More</a>
-                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#requestAccessModal">Download/Request Access</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Portfolio item 12 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Project%2012.png" class="card-img-top" alt="Portfolio Item 12">
-                    <div class="card-body">
-                        <h5 class="card-title"> Project 13: Energyzing Development</h5>
-                        <p class="card-text">Energizing development is implemented as part of the GIZ Renewable Energy Project in Ghana. EnDev promotes sustainable access to modern energy services that meet the needs of the poor, for a long lasting, aﬀordable, and appreciated by users.</p>
-                        <p><strong>Duration:</strong> [2019]</p>
-                        <p><strong>Country:</strong> [Ghana]</p>
-                        <p><strong>Mentor/Referee:</strong> [Dr. Ameka Otchere]</p>
-                        <a href="https://www.giz.de/en/worldwide/324.html" class="btn btn-primary">Read More</a>
-                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#requestAccessModal">Download/Request Access</a>
-                    </div>
-                </div>
-            </div>            
-            <!-- Portfolio item 11 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Project%2011.png" class="card-img-top" alt="Portfolio Item 11">
-                    <div class="card-body">
-                        <h5 class="card-title"> Project 14: Water Treatment & Expansion</h5>
-                        <p class="card-text">The project, which began in September 2011, was funded through a 21.6 million dollar loan facility from the US and was undertaken by UEM Incorporated. The project involved the expansion of the headwater and the rehabilitation of the old one which was constructed in 1961.</p>
-                        <p><strong>Duration:</strong> [2013-2014]</p>
-                        <p><strong>Country:</strong> [Ghana]</p>
-                        <p><strong>Mentor/Referee:</strong> [Raymond Addo]</p>
-                        <a href="https://www.graphic.com.gh/news/general-news/expansion-of-asante-mampong-water-treatment-plant-completed.html" class="btn btn-primary">Read More</a>
-                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#requestAccessModal">Download/Request Access</a>
-                    </div>
-                </div>
-            </div>         
-        <!-- Projects 13 -->
-            <!-- Portfolio item 4 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Project%2013.png" class="card-img-top" alt="Portfolio Item 13">
-                    <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Project%2013a.png" class="card-img-top" alt="Portfolio Item 13">
-                    <div class="card-body">
-                        <h5 class="card-title"> Project 15: Metropolitan Workshop</h5>
-                        <p class="card-text">The goal of the Workshop is to make an inquiry into the spatial dynamics of a Metropolitan area(Ejura). Assess it infrastructure services and their corresponding population usage. On the basis of these, recommed and design a Master and local plan for the area. An inquiry was then chosen to specifically focus on designing a Waste Management Plan for the area.</p>
-                        <p><strong>Duration:</strong> [2017-2018]</p>
-                        <p><strong>Country:</strong> [Ghana]</p>
-                        <p><strong>Mentor/Referee:</strong> [Dr. Prince Anokye, Dr. Ameka Otchere]</p>
-                        <a href="https://drive.google.com/file/d/1JPRtH3TVO2Sc_0HBjAhSWuVjNctgyoGV/view?usp=sharing" class="btn btn-primary">Read More</a>
-                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#requestAccessModal">Download/Request Access</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Portfolio item 14 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Project%2014.png" class="card-img-top" alt="Portfolio Item 14">
-                    <div class="card-body">
-                        <h5 class="card-title"> Project 16: Muncipal Workshop</h5>
-                        <p class="card-text">The goal of the Workshop is to make an inquiry into the spatial dynamics of a muncipality(Mampong). Assess it infrastructure services and their corresponding population usage. On the basis of these, recommed and design a Master and local plan for the area.</p>
-                        <p><strong>Duration:</strong> [2016-2017]</p>
-                        <p><strong>Country:</strong> [Ghana]</p>
-                        <p><strong>Mentor/Referee:</strong> [Prof. Owusu Ansah]</p>
-                        <a href="https://drive.google.com/file/d/1lKlySSblodA4L_sSVkT84sPXR4IBrwoP/view?usp=sharing" class="btn btn-primary">Read More</a>
-                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#requestAccessModal">Download/Request Access</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Portfolio item 15 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Project%2015.png" class="card-img-top" alt="Portfolio Item 15">
-                    <div class="card-body">
-                        <h5 class="card-title"> Project 17: Rural Workshop</h5>
-                        <p class="card-text">The goal of the Workshop is to make an inquiry into the spatial dynamics of a Rural Area(Bobiem). Assess it infrastructure services and their corresponding population usage. On the basis of these, recommed and design a Master and local plan for the area.</p>
-                        <p><strong>Duration:</strong> [2015-2016]</p>
-                        <p><strong>Country:</strong> [Ghana]</p>
-                        <p><strong>Mentor/Referee:</strong> [Prof. K.K Adarkwa, Prof. Owusu Ansah]</p>
-                        <a href="https://drive.google.com/file/d/1IExWqnnfK5OgpUV4qZms5gAkrP6h1nUh/view?usp=sharing" class="btn btn-primary">Read More</a>
-                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#requestAccessModal">Download/Request Access</a>
-                    </div>
-                </div>
-            </div>
-                    <!-- Portfolio item 16 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/img/Project%2016.png" class="card-img-top" alt="Portfolio Item 16">
-                    <div class="card-body">
-                        <h5 class="card-title"> Project 18: IDEA</h5>
-                        <p class="card-text">Our Goal is to: Improve livelihoods in a manner that reduces poverty and empowers the young and vulnerable.</p>
-                        <p><strong>Duration:</strong> [2017]</p>
-                        <p><strong>Country:</strong> [Ghana]</p>
-                        <a href="https://www.facebook.com/17IDEARevolutionGH/" class="btn btn-primary">Read More</a>
-                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#requestAccessModal">Download/Request Access</a>
                     </div>
                 </div>
             </div>
         </div>
-</section>
-
-<!-- Modal for requesting access -->
-<div class="modal fade" id="requestAccessModal" tabindex="-1" role="dialog" aria-labelledby="requestAccessModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="requestAccessModalLabel">Request Access</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>Please enter your email to request access to the document.</p>
-          <form>
-            <div class="form-group">
-              <label for="email">Email address:</label>
-              <input type="email" class="form-control" id="email" required>
-            </div>
-            <button type="submit" class="btn btn-primary">Request Access</button>
-          </form>
-        </div>
-      </div>
     </div>
-  </div>
-<!-- Link to Bootstrap JS and Popper.js for Bootstrap functionalities -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+</section>
