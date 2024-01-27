@@ -11,7 +11,7 @@
 	
 	#wrapper {
 		/*background-color: #212931;*/
-		background-image: url("https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/images/cities3.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/images/cities3.png");
+		background-image: url("https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/images/cities4.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://raw.githubusercontent.com/desmond-lartey/Portfolio-Website/Fires/images/cities4.png");
 		background-size: cover, auto, 100% auto;
 		background-position: center, center, top center;
 		background-repeat: no-repeat, no-repeat, no-repeat;
