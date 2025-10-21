@@ -67,7 +67,34 @@
 					<p>Moreover, my adaptability, demonstrated through my readiness to relocate and embrace new cultures, along with my strong interpersonal and communication skills, make me an ideal fit for roles that require a global outlook and team collaboration. Whether in a technical, planning, or sales-oriented role, I am committed to bringing innovative, sustainable solutions to the table, making a positive impact on projects and organizations I work with. My diverse skill set, international perspective, and commitment to sustainability and innovation are assets that I am excited to bring to your team.</p>
 				</section>
 
+<!-- Footer -->
+							<footer>
+								<div class="pagination">
+									<a href="#" class="page active">1</a>
+									<a href="generic.html" class="page">2</a>
+									<a href="elements.html" class="page">3</a>
+									<a href="#" class="next">Next page</a>
+									</div>
 
+									<script>
+									const pages = [
+										'index.html',
+										'generic.html',
+										'elements.html'
+									];
+
+									const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+									const nextLink = document.querySelector('.pagination .next');
+									const currentIndex = pages.indexOf(currentPage);
+
+									if (currentIndex >= 0 && currentIndex < pages.length - 1) {
+										nextLink.href = pages[currentIndex + 1];
+									} else {
+										nextLink.href = pages[0]; // loop back to first page
+									}
+									</script>
+
+							</footer>
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
