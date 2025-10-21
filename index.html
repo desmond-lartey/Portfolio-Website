@@ -294,16 +294,30 @@
 						<!-- Footer -->
 							<footer>
 								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
 									<a href="#" class="page active">1</a>
-									<a href="https://desmond-lartey.github.io/Portfolio-Website/generic.html" class="page">2</a>
-									<a href="https://desmond-lartey.github.io/Portfolio-Website/elements.html" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
+									<a href="generic.html" class="page">2</a>
+									<a href="elements.html" class="page">3</a>
 									<a href="#" class="next">Next page</a>
-								</div>
+									</div>
+
+									<script>
+									const pages = [
+										'index.html',
+										'generic.html',
+										'elements.html'
+									];
+
+									const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+									const nextLink = document.querySelector('.pagination .next');
+									const currentIndex = pages.indexOf(currentPage);
+
+									if (currentIndex >= 0 && currentIndex < pages.length - 1) {
+										nextLink.href = pages[currentIndex + 1];
+									} else {
+										nextLink.href = pages[0]; // loop back to first page
+									}
+									</script>
+
 							</footer>
 
 					</div>
